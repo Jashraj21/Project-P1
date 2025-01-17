@@ -20,7 +20,7 @@ unordered_map<string, int> preprocessText(const string& filename) {
     string word;
 
     set<string> commonWords;
-    commonWords.insert({"a", "and", "an", "of", "in", "the"});
+    commonWords.insert({ "a", "and", "an", "of", "in", "the" });
 
     while (file >> word) {
         // Normalize word: Remove non-alphanumeric characters and convert to uppercase
@@ -88,7 +88,7 @@ int main() {
         "Cats by Moncrif.txt", "Foxes Book of Martyrs Part 1.txt", "Foxes Book of Martyrs Part 2.txt", 
         "Foxes Book of Martyrs Part 3.txt", "Foxes Book of Martyrs Part 4.txt", "Foxes Book of Martyrs Part 5.txt", 
         "Foxes Book of Martyrs Part 6.txt", "Gerards Herbal Vol. 1.txt", "Gerards Herbal Vol. 2.txt", 
-        "Gerards Herbal Vol. 3.txt", "Gerards Herbal Vol.4.txt", "Gil Blas.txt", "Gossip in a Library.txt", 
+        "Gerard's Herbal Vol. 3.txt", "Gerards Herbal Vol.4.txt", "Gil Blas.txt", "Gossip in a Library.txt", 
         "Hudibras.txt", "King of the Beggars.txt", "Knocknagow.txt", "Les Chats par Moncrif.txt", 
         "Lives and Anecdotes of Misers.txt", "Love and Madness - Herbert Croft.txt", 
         "Memoirs of Laetitia Pilkington V 1.txt", "Memoirs of Laetitia Pilkington V 2.txt", 
